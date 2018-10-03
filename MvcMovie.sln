@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{B589B530-2C4F-44BF-A391-B8B2A581E0F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{AE6D8B11-7684-4D3A-A939-09673081BF29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B589B530-2C4F-44BF-A391-B8B2A581E0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B589B530-2C4F-44BF-A391-B8B2A581E0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B589B530-2C4F-44BF-A391-B8B2A581E0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE6D8B11-7684-4D3A-A939-09673081BF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6D8B11-7684-4D3A-A939-09673081BF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6D8B11-7684-4D3A-A939-09673081BF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE6D8B11-7684-4D3A-A939-09673081BF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
