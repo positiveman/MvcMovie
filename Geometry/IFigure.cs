@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    abstract class Figure
+    interface IFigure
     {
-        public abstract double Perimeter();
-
-        public abstract double Area();
+        double Perimeter();
+        double Area();
     }
 }

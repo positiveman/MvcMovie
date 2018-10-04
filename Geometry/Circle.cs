@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    class Circle : Figure
+    class Circle : IFigure
     {
 
         private int Radius;
@@ -16,8 +16,8 @@ namespace Geometry
             this.Radius = radius;
         }
 
-        public override double Area() => Math.PI * (Radius ^ 2);
+        public double Area() => Math.PI * (Radius ^ 2);
 
-        public override double Perimeter() => 2 * Math.PI * Radius;
+        public double Perimeter() => 2 * Math.PI * Radius;
     }
 }

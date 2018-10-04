@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometry
 {
-    class Square : Figure
+    class Square : IFigure
     {
         private double Side;
 
@@ -15,12 +15,12 @@ namespace Geometry
             this.Side = side;         
         }
 
-        public override double Area()
+        public  double Area()
         {
             return Side * Side;
         }
 
-        public override double Perimeter()
+        public  double Perimeter()
         {
             return Side*4;
         }
